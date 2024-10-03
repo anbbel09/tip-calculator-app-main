@@ -620,6 +620,10 @@ video {
   margin-top: auto;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .flex{
   display: flex;
 }
@@ -642,6 +646,30 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-1\/3{
+  width: 33.333333%;
+}
+
+.w-1\/5{
+  width: 20%;
+}
+
+.w-1\/2{
+  width: 50%;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[40\%\]{
+  width: 40%;
+}
+
+.w-\[45\%\]{
+  width: 45%;
 }
 
 .appearance-none{
@@ -686,6 +714,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-around{
+  justify-content: space-around;
+}
+
 .justify-evenly{
   justify-content: space-evenly;
 }
@@ -696,6 +728,10 @@ video {
 
 .justify-items-stretch{
   justify-items: stretch;
+}
+
+.gap-3{
+  gap: 0.75rem;
 }
 
 .self-end{
@@ -775,6 +811,10 @@ video {
 
 .p-5{
   padding: 1.25rem;
+}
+
+.p-7{
+  padding: 1.75rem;
 }
 
 .px-3{
@@ -947,4 +987,139 @@ input[type="number"]{
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media (min-width: 1024px){
+  .lg\:m-auto{
+    margin: auto;
+  }
+
+  .lg\:m-0{
+    margin: 0px;
+  }
+
+  .lg\:m-1{
+    margin: 0.25rem;
+  }
+
+  .lg\:my-2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .lg\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .lg\:my-0{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .lg\:mt-6{
+    margin-top: 1.5rem;
+  }
+
+  .lg\:mt-4{
+    margin-top: 1rem;
+  }
+
+  .lg\:mt-3{
+    margin-top: 0.75rem;
+  }
+
+  .lg\:flex{
+    display: flex;
+  }
+
+  .lg\:w-2\/5{
+    width: 40%;
+  }
+
+  .lg\:w-4\/5{
+    width: 80%;
+  }
+
+  .lg\:w-1\/4{
+    width: 25%;
+  }
+
+  .lg\:w-1\/3{
+    width: 33.333333%;
+  }
+
+  .lg\:w-1\/2{
+    width: 50%;
+  }
+
+  .lg\:w-\[45\%\]{
+    width: 45%;
+  }
+
+  .lg\:w-\[28\%\]{
+    width: 28%;
+  }
+
+  .lg\:w-\[30\%\]{
+    width: 30%;
+  }
+
+  .lg\:w-\[29\%\]{
+    width: 29%;
+  }
+
+  .lg\:flex-wrap{
+    flex-wrap: wrap;
+  }
+
+  .lg\:flex-nowrap{
+    flex-wrap: nowrap;
+  }
+
+  .lg\:justify-normal{
+    justify-content: normal;
+  }
+
+  .lg\:justify-center{
+    justify-content: center;
+  }
+
+  .lg\:justify-between{
+    justify-content: space-between;
+  }
+
+  .lg\:justify-evenly{
+    justify-content: space-evenly;
+  }
+
+  .lg\:justify-stretch{
+    justify-content: stretch;
+  }
+
+  .lg\:gap-3{
+    gap: 0.75rem;
+  }
+
+  .lg\:gap-1{
+    gap: 0.25rem;
+  }
+
+  .lg\:gap-9{
+    gap: 2.25rem;
+  }
+
+  .lg\:gap-2{
+    gap: 0.5rem;
+  }
+
+  .lg\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .lg\:px-7{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
 }
