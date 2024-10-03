@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+      font-family: 'Mono-space';
+      font-style: normal;
+      src: url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap') format('truetype');
+    }
+
+  }
+
+  @layer utilities {
+    /* Para Chrome, Safari, Edge, Opera */
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+      @apply appearance-none;
+      margin: 0;
+    }
+  
+    /* Para Firefox */
+    input[type="number"] {
+      @apply appearance-none;
+    }
+  }
