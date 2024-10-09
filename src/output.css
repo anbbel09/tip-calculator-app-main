@@ -834,6 +834,14 @@ input[type="number"]{
   font-weight: 500;
 }
 
+.placeholder\:font-semibold::-moz-placeholder{
+  font-weight: 600;
+}
+
+.placeholder\:font-semibold::placeholder{
+  font-weight: 600;
+}
+
 .placeholder\:text-GrayishCyan::-moz-placeholder{
   --tw-text-opacity: 1;
   color: hsl(184 14% 56% / var(--tw-text-opacity));
@@ -864,9 +872,80 @@ input[type="number"]{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.focus-within\:rounded-sm:focus-within{
+  border-radius: 0.125rem;
+}
+
+.focus-within\:rounded-md:focus-within{
+  border-radius: 0.375rem;
+}
+
+.focus-within\:border:focus-within{
+  border-width: 1px;
+}
+
+.focus-within\:border-2:focus-within{
+  border-width: 2px;
+}
+
+.focus-within\:border-primary:focus-within{
+  --tw-border-opacity: 1;
+  border-color: hsl(172 67% 45% / var(--tw-border-opacity));
+}
+
+.focus-within\:outline-primary:focus-within{
+  outline-color: hsl(172, 67%, 45%);
+}
+
+.hover\:border:hover{
+  border-width: 1px;
+}
+
+.hover\:border-primary:hover{
+  --tw-border-opacity: 1;
+  border-color: hsl(172 67% 45% / var(--tw-border-opacity));
+}
+
+.hover\:outline-primary:hover{
+  outline-color: hsl(172, 67%, 45%);
+}
+
+.focus\:border:focus{
+  border-width: 1px;
+}
+
+.focus\:border-primary:focus{
+  --tw-border-opacity: 1;
+  border-color: hsl(172 67% 45% / var(--tw-border-opacity));
+}
+
+.focus\:bg-primary:focus{
+  --tw-bg-opacity: 1;
+  background-color: hsl(172 67% 45% / var(--tw-bg-opacity));
+}
+
+.focus\:text-veryDark:focus{
+  --tw-text-opacity: 1;
+  color: hsl(183 100% 15% / var(--tw-text-opacity));
+}
+
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.focus\:outline-primary:focus{
+  outline-color: hsl(172, 67%, 45%);
+}
+
+.focus\:placeholder\:text-veryDark:focus::-moz-placeholder{
+  --tw-text-opacity: 1;
+  color: hsl(183 100% 15% / var(--tw-text-opacity));
+}
+
+.focus\:placeholder\:text-veryDark:focus::placeholder{
+  --tw-text-opacity: 1;
+  color: hsl(183 100% 15% / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px){
